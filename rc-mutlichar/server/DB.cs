@@ -16,7 +16,7 @@ namespace Retro_Multichar_sv
             Debug.WriteLine("Trying to connect to the DB");
             try
             {
-                conn = new MySqlConnection("user=u1_PQbyrlXqTt;password=qdsk!@6wnFbIcFY=4OGnQD8z;host=167.114.52.165;port=3306;database=s1_database");
+                conn = new MySqlConnection("conneectionstring");
                 conn.Open();
                 Debug.WriteLine("Connection to DB established");
             }
